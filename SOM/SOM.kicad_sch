@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ce18678d-dec4-443f-9673-80cd47a8a0e4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 19.05 58.42)
+		(size 39.37 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 163 9 1.0000)
+		)
+		(uuid "ebe2b0be-74b4-459f-a986-7d7ab97494e5")
+		(property "Sheetname" "connectors "
+			(at 19.05 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors .kicad_sch"
+			(at 19.05 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SOM"
+				(path "/ce18678d-dec4-443f-9673-80cd47a8a0e4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 27.94)
+		(size 39.37 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 58 104 1.0000)
+		)
+		(uuid "f56bd3ff-4d98-40e4-804d-2c46ad2b1bad")
+		(property "Sheetname" "MCU"
+			(at 19.05 25.9584 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 19.05 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SOM"
+				(path "/ce18678d-dec4-443f-9673-80cd47a8a0e4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

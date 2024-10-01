@@ -1,0 +1,85 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f72eaf65-4215-42fd-9338-745d03669a9a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 25.4)
+		(size 50.8 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 72 255 41 1.0000)
+		)
+		(uuid "1fb3af8f-a357-460a-8a71-80a084b05a46")
+		(property "Sheetname" "power_mcu"
+			(at 20.32 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_mcu.kicad_sch"
+			(at 20.32 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SOM"
+				(path "/ce18678d-dec4-443f-9673-80cd47a8a0e4/f56bd3ff-4d98-40e4-804d-2c46ad2b1bad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 53.34)
+		(size 50.8 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 10 255 0 1)
+		)
+		(fill
+			(color 0 255 36 1.0000)
+		)
+		(uuid "93915a42-9eda-4449-8257-9ea28bcb5c67")
+		(property "Sheetname" "MCUio"
+			(at 20.32 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCUio.kicad_sch"
+			(at 20.32 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SOM"
+				(path "/ce18678d-dec4-443f-9673-80cd47a8a0e4/f56bd3ff-4d98-40e4-804d-2c46ad2b1bad"
+					(page "4")
+				)
+			)
+		)
+	)
+)

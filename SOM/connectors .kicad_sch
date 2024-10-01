@@ -1,0 +1,28 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bbce768d-eeba-461e-9a08-fcc6828e73dd")
+	(paper "A4")
+	(lib_symbols)
+	(text "RS-232"
+		(exclude_from_sim no)
+		(at 19.558 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab14c533-add1-48e0-b262-c923991b3ef5")
+	)
+	(text "RJ-45"
+		(exclude_from_sim no)
+		(at 19.05 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd9c5bb7-60b3-486d-8dcb-7d0cb7ca52ba")
+	)
+)
